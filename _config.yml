@@ -65,11 +65,10 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
+        border: none
         title: Blog
-        # link: krzwiatrzyk.pl
-        # link_text: Link Text
+        link: krzwiatrzyk.pl
+        link_text: Links
         additional_links:
           - title:  Site
             icon: fab fa-browser
@@ -78,9 +77,10 @@ content:
           Personal blog with weekly technology reading and watching list.
         description: | 
           I have created this blog for three reasons:
-            1. Writing articles
-            2. Grouping videos, projects and articles from other poeple
-            3. Managing application by myself
+        
+          1. Writing articles
+          2. Grouping videos, projects and articles from other poeple
+          3. Managing application by myself
           
   - title: Experience
     layout: list
