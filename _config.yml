@@ -96,6 +96,9 @@ content:
           It required writing new features in Golang programming language and also inclined range of other tasks such as: complex code reviews, code version control (rebases, merges, cherry-picks, etc.), working with Kubernetes community, writing unit and e2e tests, preparing test machines (tweaking Linux for Kubernetes, installing Kubernetes from scratch), researching new fields of improvement.
 
           **Technologies involved:** _Git, Golang, Kubernetes, Operator SDK, Linux, Docker, Github_
+
+          <i class="fa-solid fa-browser"></i> this is icon
+
   - title: Education
     layout: list
     content:
