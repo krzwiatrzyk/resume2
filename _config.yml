@@ -71,7 +71,7 @@ content:
         link_text: Links
         additional_links:
           - title:  Site
-            icon: fa-solid fa-browser
+            icon: fas fa-browser
             url: krzwiatrzyk.pl
         quote: >
           Personal blog with weekly technology reading and watching list.
