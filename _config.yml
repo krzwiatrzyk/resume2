@@ -67,32 +67,36 @@ content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
+        title: Blog
+        # link: krzwiatrzyk.pl
+        # link_text: Link Text
         additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+          - title:  Site
+            icon: fab fa-browser
+            url: krzwiatrzyk.pl
         quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          Personal blog with weekly technology reading and watching list.
+        description: | 
+          I have created this blog for three reasons:
+            1. Writing articles
+            2. Grouping videos, projects and articles from other poeple
+            3. Managing application by myself
+          
   - title: Experience
     layout: list
     content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+      - layout: left
+        title: Samsung Electronics
+        sub_title: DevOps Engineer 
+        caption: February 2020 - January 2021
+        link: https://www.samsung.com
         quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
+          Telecomunications.
+        description: | 
+          As a DevOps engineer my task was to improve upstream version of Kubernetes in the field of resource management (CPU, Memory, NUMA nodes). 
+          It required writing new features in Golang programming language and also inclined range of other tasks such as: complex code reviews, code version control (rebases, merges, cherry-picks, etc.), working with Kubernetes community, writing unit and e2e tests, preparing test machines (tweaking Linux for Kubernetes, installing Kubernetes from scratch), researching new fields of improvement.
+
+          **Technologies involved:** _Git, Golang, Kubernetes, Operator SDK, Linux, Docker, Github_
   - title: Education
     layout: list
     content:
