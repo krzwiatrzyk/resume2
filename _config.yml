@@ -77,10 +77,9 @@ content:
           Personal blog with weekly technology reading and watching list.
         description: | 
           I have created this blog for three reasons:
-        
-          1. Writing articles
-          2. Grouping videos, projects and articles from other poeple
-          3. Managing application by myself
+           - writing articles
+           - grouping videos, projects and articles from other poeple
+           - managing application and hosting by myself
           
   - title: Experience
     layout: list
